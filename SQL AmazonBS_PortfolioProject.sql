@@ -4,7 +4,7 @@
 
 --DQL EXAMPLES
 
---1 Fetch all data from the table (we will found name, author, user rating, reviews, price, 
+--1 Fetch all data from the table (we will find name, author, user rating, reviews, price, 
 --year & genre of each best seller book) 
 
 
@@ -203,8 +203,7 @@ into #TempFictionTable
 from [dbo].[Amazon Top 50 Best Selling Books Dataset]
 where Genre = 'Fiction';
 
-select *
-from #TempFictionTable;
+
 
 
 
